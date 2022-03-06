@@ -1,0 +1,40 @@
+
+
+$theme-colors: (
+    primary : #5ebec4,
+    primary-rgb : #5ebec4,
+    secondary: #f93c85,
+    light: #fdf5df,
+    dark: #287777,   
+);
+
+$brand-primary : #5ebec4;
+
+.bg-primary{
+    background-color: #5ebec4 !important;
+}
+
+
+#root{
+    background-color: #fffbf1;
+    min-height: 100vh;
+}
+
+@import "~bootstrap/scss/bootstrap";
+
+.shadow-lg {
+    box-shadow: 0.5rem 0.5rem #5ebec4, -0.5rem -0.5rem #f93c85 !important;
+}
+
+.shadow {
+    box-shadow: 0.5rem 0.5rem #287777, -0.5rem -0.5rem #5ebec4 !important;
+}
+
+.rides{
+    flex-basis: auto;
+}
+
+.ride{
+    max-width: 22%;
+}
+
