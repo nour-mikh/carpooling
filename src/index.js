@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import './overriding.scss';
-// import App from './App';
+/* import App from './App'; */ 
 import Navigation from './Navigation';
 import Home from './Home';
 import Rides from './Rides';
@@ -15,7 +15,7 @@ ReactDOM.render(
     <Navigation />
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/rides" element={<Rides />} />
+      <Route path="/rides" element= {<Rides />} />
     </Routes>
   </Router>,
   </React.StrictMode>,

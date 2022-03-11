@@ -1,5 +1,7 @@
 import React from "react";
 
+
+
 function Home() {
   return (
     <div className="home">
@@ -57,5 +59,27 @@ function ridesPage(props) {
   )
 }
 
+function friendsJoining (props){
+  return (
+    <>
+    <div class="d-flex flex-column justify-content-start">
+      <h1>Friends Joining</h1>
+
+    </div>
+    </>
+  )
+}
+
+function friend(props){
+  return(
+    <>
+    {/* Implement auto loading of friends */}
+    <h2>{props.name}</h2>
+    <p>Picked up by driver {props.driver1}</p>
+    <button class = "bg-secondary text-light">Pick Up</button>
+    </>
+  )
+}
+
 export default Home
-export {Option, ridesPage};
+export {Option, ridesPage, friendsJoining};
