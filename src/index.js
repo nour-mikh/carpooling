@@ -8,6 +8,10 @@ import Home from './Home';
 import Rides from './Rides';
 import Map from './Map';
 import Login from './Login';
+import Register from './Register';
+import Reset from './Reset';
+import Profile from './Profile';
+import Person from './Person';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -32,6 +36,10 @@ ReactDOM.render(
       <Route path="/rides" element= {<Rides />} />
       <Route path="/map" element= {<Map />} />
       <Route path="/signin" element= {<Login />} />
+      <Route path="/register" element= {<Register />} />
+      <Route path="/reset" element= {<Reset />} />
+      <Route path="/profile" element={<Profile/>} />
+      <Route path="/person" element={<Person/>} />
     </Routes>
   </Router>,
   </React.StrictMode>,

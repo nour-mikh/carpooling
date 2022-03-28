@@ -11,3 +11,104 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --primary:#5ebec4;
+  --secondary: #f93c85;
+  --light: #fdf5df;
+  --dark: #287777; 
+}
+
+#profileSection{
+  width: 50%;
+}
+
+#profilePicture{
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  margin: 1em;
+}
+
+ul{
+  margin-left: -2em;
+  list-style-type: none;
+}
+
+#description{
+  display: flex;
+  flex-direction: row;
+}
+
+#additionalInfo{
+  margin: 1em;
+}
+
+#contactInfo{
+  display: flex;
+  flex-direction: row;
+  border: var(--primary);
+  background-color: var(--primary);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 4px rgba(0, 0, 0, 0.3);
+  gap: 0.5em;
+  padding: 0.5em;
+  margin-left: 2em;
+  width: fit-content;
+}
+
+#descriptionParagraph{
+  width: 80%;
+  margin: 2em;
+}
+
+#sectionBody{
+  display: flex;
+  flex-direction: row;
+}
+
+.sectionPosts{
+  margin-top: 2em;
+}
+
+#options{
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+#options i{
+  font-size: 2em;
+}
+
+#friends img{
+  width: 4em;
+  height: 4em;
+  margin-right: 1em;
+}
+
+#ridePreview{
+  display: grid;
+  grid-template-columns: repeat(3, 10em);
+  grid-gap: 2em;
+}
+
+#name img{
+  max-width: 15em;
+}
+
+#resources{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#resources div{
+	padding: 1em;
+	margin-top: 5em;
+	cursor: pointer;
+}
+
+#resources i{
+  font-size: 5em;
+}

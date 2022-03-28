@@ -6,25 +6,25 @@ function Rides(){
     const [rides, setRides] = useState([
         {
             index : 1,
-            name: "Valerie",
-            description : "trdfkyugtiyfyrd"
+            name: "Ride 1",
+            description : "LAU Beirut"
         },
         {
             index: 2,
-            name: "Chloe",
-            description: "dftguiljhf"
+            name: "Ride 2",
+            description: "LeMall Dbayeh"
     
         },
         {
             index: 3,
-            name: "Tatiana",
-            description: "tsyftgfc"
+            name: "Ride 3",
+            description: "Beirut-Rafic Hariri International Airport"
     
         }
     ])
     return(
         <>
-        <h1 className = "mt-5 mb-5 text-center text-primary" > <i class="bi bi-people-fill"></i> Rides you're registered in</h1>
+        <h1 className = "mt-5 mb-5 text-center text-primary" > Rides you're registered in</h1>
         <div className = "d-flex justify-content-around flex-wrap rides">
         {rides.map((ride) => (
         <Ride name={ride.name} description = {ride.description} />

@@ -28,8 +28,13 @@ function Navigation() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link text-light" to="/signin">
+                <NavLink className="nav-link text-light" id = "sign-in" to="/signin">
                   Sign-In
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link text-light" to="/profile">
+                <i class="material-icons" >person</i>
                 </NavLink>
               </li>
             </ul>
