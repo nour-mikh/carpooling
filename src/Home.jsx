@@ -6,11 +6,11 @@ function Home() {
     <div className="home">
       <div className="container">
         <div className="row align-items-center my-5">
-          <h1 className="text-center text-primary mb-5">Random text about choosing an option</h1>
+          <h1 className="text-center text-primary mb-3">Start carpooling today! </h1>
           <div className="d-flex justify-content-around mt-5">
-            <Option option = "Option 1" description = "Description 1"/>
-            <Option option = "Option 2" description = "Description 2"/>
-            <Option option = "Option 3" description = "Description 3"/>
+            <Option option = "Search for ride" description = "Search for a ride using a code provided by the ride organizer"/>
+            <Option option = "Organize" description = "Organize a carpool with your friends and invite them using a generated code"/>
+            <Option option = "Explore" description = "Find rides organized by your friends around your location"/>
           </div>
           
         </div>
@@ -22,7 +22,7 @@ function Home() {
 function Option(props) {
   return (
     <>
-    <div className="shadow-lg p-3 mt-5 mb-5 bg-light rounded">
+    <div className="shadow-lg p-3 mt-5 mb-5 bg-light rounded option text-center">
       <div><h2>{props.option}</h2></div>
       <div>{props.description}</div>
     </div>

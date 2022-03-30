@@ -6,7 +6,6 @@ $theme-colors: (
     dark: #287777,   
 );
 
-$brand-primary : #5ebec4;
 
 .bg-primary{
     background-color: #5ebec4 !important;
@@ -28,6 +27,20 @@ $brand-primary : #5ebec4;
     box-shadow: 0.5rem 0.5rem #287777, -0.5rem -0.5rem #5ebec4 !important;
 }
 
+.option{
+    width: 25%;
+    transition: all .2s ease-in-out;
+}
+
+.option:hover{
+    transform: scale(1.1);
+}
+
+.logo{
+    width: 7%;
+    height: 20%;
+}
+
 .rides{
     flex-basis: auto;
 }
@@ -36,3 +49,6 @@ $brand-primary : #5ebec4;
     min-width: 22%;
 }
 
+.rideInfoSide{
+    width: 40%;
+}

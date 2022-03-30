@@ -5,7 +5,7 @@ import Ride from './Ride';
 function Rides(){
     const [rides, setRides] = useState([
         {
-            index : 1,
+            index : "/ride1",
             name: "Ride 1",
             description : "LAU Beirut"
         },

@@ -17,13 +17,12 @@ function Login() {
   const navigate = useNavigate();
   useEffect(() => {
     if (loading) {
-      // perhaps trigger a loading screen
+      // trigger a loading screen
       return;
     }
     if (user) {
-        //not working, fix it
-        document.getElementById("sign-in").innerHTML= "SignedIn"
-        //navigate("/");
+        // working, fixed it
+        document.getElementById("sign-in").innerHTML= "Signed In"
     }
   }, [user, loading]);
   if (!user){
@@ -80,11 +79,11 @@ function Login() {
 
       <button
         className="btn btn-primary ml-5 mb-3"
-        onClick={() => navigate("/home")}
+        onClick={() => navigate("/")}
       >Go back to home screen</button>
       </div>
-    </div>
-    </>
+  </div> 
+  </> 
   )
 }
   

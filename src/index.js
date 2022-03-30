@@ -12,6 +12,7 @@ import Register from './Register';
 import Reset from './Reset';
 import Profile from './Profile';
 import Person from './Person';
+import RideInfo from './RidePage';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -40,6 +41,7 @@ ReactDOM.render(
       <Route path="/reset" element= {<Reset />} />
       <Route path="/profile" element={<Profile/>} />
       <Route path="/person" element={<Person/>} />
+      <Route path="/ride1" element={<RideInfo/>} />
     </Routes>
   </Router>,
   </React.StrictMode>,

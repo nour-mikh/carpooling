@@ -20,7 +20,7 @@ function Register() {
   };
   useEffect(() => {
     if (loading) return;
-    //if (user) history.replace("/home");
+    if (user) history.replace("/");
   }, [user, loading]);
 
 

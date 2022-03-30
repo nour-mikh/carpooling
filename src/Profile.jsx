@@ -1,5 +1,10 @@
 import Ride from './Ride';
 import React, {useState} from "react";
+import person1 from './media/person1.png';
+import person2 from './media/person2.png';
+import person3 from './media/person3.png';
+import person4 from './media/person4.png';
+import person5 from './media/person5.png';
 
 const BasicProfile = (props) => {
     return(
@@ -99,8 +104,8 @@ const ProfileBody = (props) => {
     return(
         <>
         <main id= "sectionBody">
-            <BasicProfile profile = "" name = "Kevin Mikhael" location = "Byblos, Mt. Lebanon, Lebanon" vehicle = "Mercedes AMG A35" frequency = "Adma and Beirut" shared = "You have carpooled 253km!" />
-            <Posts fsrc1 = "media/person1.jpeg" fsrc2 = "media/person2.jpeg" fsrc3 = "media/person3.jpeg" fsrc4 = "media/person4.jpeg"/>
+            <BasicProfile profile = {person2} name = "Kevin Mikhael" location = "Byblos, Mt. Lebanon, Lebanon" vehicle = "Mercedes AMG A35" frequency = "Adma and Beirut" shared = "You have carpooled 253km!" />
+            <Posts fsrc1 = {person1} fsrc2 = {person3} fsrc3 = {person4} fsrc4 = {person5}/>
         </main>
         </>
     )
