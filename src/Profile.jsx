@@ -104,8 +104,8 @@ const ProfileBody = (props) => {
     return(
         <>
         <main id= "sectionBody">
-            <BasicProfile profile = {person2} name = "Kevin Mikhael" location = "Byblos, Mt. Lebanon, Lebanon" vehicle = "Mercedes AMG A35" frequency = "Adma and Beirut" shared = "You have carpooled 253km!" />
-            <Posts fsrc1 = {person1} fsrc2 = {person3} fsrc3 = {person4} fsrc4 = {person5}/>
+            <BasicProfile profile = {person4} name = "Nour Mikhael" location = "Byblos, Mt. Lebanon, Lebanon" vehicle = "Hyundai i10" frequency = "Adma and Beirut" shared = "You have carpooled 253km!" />
+            <Posts fsrc1 = {person1} fsrc2 = {person3} fsrc3 = {person2} fsrc4 = {person5}/>
         </main>
         </>
     )

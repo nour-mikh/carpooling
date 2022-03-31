@@ -9,5 +9,9 @@
         "**/.*",
         "**/node_modules/**"
     ]
-}
+},
+  "rules": {
+    ".read": false,
+    ".write": false
+  }
 }

@@ -106,7 +106,7 @@ const PersonProfileBody = (props) => {
     return(
         <>
         <main id= "sectionBody">
-            <BasicProfile profile = {person1} name = "Kevin Mikhael" location = "Byblos, Mt. Lebanon, Lebanon" vehicle = "Mercedes AMG A35" frequency = "Adma and Beirut" shared = "Together, you have carpooled 51km!" />
+            <BasicProfile profile = {person1} name = "Kevin Aoun" location = "Hamra, Beirut, Lebanon" vehicle = "Mercedes AMG A35" frequency = "Raouche and Byblos" shared = "Together, you have carpooled 51km!" />
             <Posts fsrc1 = {person2} fsrc2 = {person3} fsrc3 = {person4} fsrc4 = {person5}/>
         </main>
         </>

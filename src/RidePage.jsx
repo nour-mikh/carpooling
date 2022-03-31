@@ -14,9 +14,9 @@ const RideInfo = (props) => {
             title: "Ride 1",
             departure: "LAU Byblos",
             destination : "LAU Beirut",
-            distance: "37km",
+            distance: "43km",
             vehicule: "Honda civic 2008",
-            resSeats: 2,
+            resSeats: 3,
             avSeats: 4
         }
     ])
